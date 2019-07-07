@@ -1,8 +1,8 @@
 class Customer
 
-	attr_reader :name :capacity
+	attr_reader :name
 
-	def initialize(name, capacity)
+	def initialize(name)
 
 		@name = name
 
@@ -13,6 +13,12 @@ class Customer
 
 	end
 
+
+
+	# def take_fish_from_river(river)
+	#     fish = river.get_fish()
+	#     @food << fish if !fish.nil?
+	#   end
 
 
 end
